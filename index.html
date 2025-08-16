@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7b78069743688ad72525b2facce6ae9e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7b78069743688ad72525b2facce6ae9e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7b78069743688ad72525b2facce6ae9e = L.map(
+                "map_7b78069743688ad72525b2facce6ae9e",
+                {
+                    center: [47.4979, 19.0402],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6aef260a79743635e1dc7cf4c6f51959 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_7b78069743688ad72525b2facce6ae9e);
+        
+    
+            var marker_76935ce1575b227f3c8baa177e69c787 = L.marker(
+                [47.5021, 19.0572],
+                {}
+            ).addTo(map_7b78069743688ad72525b2facce6ae9e);
+        
+    
+            var icon_60294f410a0378ea0d990806d4093ea2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_76935ce1575b227f3c8baa177e69c787.setIcon(icon_60294f410a0378ea0d990806d4093ea2);
+        
+    
+        var popup_578881aa9e3d0d323035a3329b5d540b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b5e606d625ebe847ed847c2e7da26301 = $(`<div id="html_b5e606d625ebe847ed847c2e7da26301" style="width: 100.0%; height: 100.0%;">Apartamento Paulay Ede utca 47 (Día 1)</div>`)[0];
+            popup_578881aa9e3d0d323035a3329b5d540b.setContent(html_b5e606d625ebe847ed847c2e7da26301);
+        
+
+        marker_76935ce1575b227f3c8baa177e69c787.bindPopup(popup_578881aa9e3d0d323035a3329b5d540b)
+        ;
+
+        
+    
+    
+            var marker_fa71c3f5099b18f8dea593de5b935354 = L.marker(
+                [47.5039, 19.065],
+                {}
+            ).addTo(map_7b78069743688ad72525b2facce6ae9e);
+        
+    
+            var icon_c224e1443ae1e190cc25077b6f001db1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fa71c3f5099b18f8dea593de5b935354.setIcon(icon_c224e1443ae1e190cc25077b6f001db1);
+        
+    
+        var popup_65c996718ed874c3856315080213bf85 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_80c13ccf1c8242a981494034072c5c89 = $(`<div id="html_80c13ccf1c8242a981494034072c5c89" style="width: 100.0%; height: 100.0%;">Avenida Andrássy (Día 1)</div>`)[0];
+            popup_65c996718ed874c3856315080213bf85.setContent(html_80c13ccf1c8242a981494034072c5c89);
+        
+
+        marker_fa71c3f5099b18f8dea593de5b935354.bindPopup(popup_65c996718ed874c3856315080213bf85)
+        ;
+
+        
+    
+    
+            var marker_d17550b87f65bb96bba3f1265a95f160 = L.marker(
+                [47.5006, 19.0499],
+                {}
+            ).addTo(map_7b78069743688ad72525b2facce6ae9e);
+        
+    
+            var icon_7af8a94c6ab1ec042cd29fb143cdb22d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d17550b87f65bb96bba3f1265a95f160.setIcon(icon_7af8a94c6ab1ec042cd29fb143cdb22d);
+        
+    
+        var popup_357f363fd88ab7965b1ef4605fde03dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6abc1e5b68022f095c0d9955af8483fe = $(`<div id="html_6abc1e5b68022f095c0d9955af8483fe" style="width: 100.0%; height: 100.0%;">Bestsellers Book Store (Día 1)</div>`)[0];
+            popup_357f363fd88ab7965b1ef4605fde03dd.setContent(html_6abc1e5b68022f095c0d9955af8483fe);
+        
+
+        marker_d17550b87f65bb96bba3f1265a95f160.bindPopup(popup_357f363fd88ab7965b1ef4605fde03dd)
+        ;
+
+        
+    
+    
+            var marker_b15ce356d29e1b46b804fc561161ebf0 = L.marker(
+                [47.505, 19.0657],
+                {}
+            ).addTo(map_7b78069743688ad72525b2facce6ae9e);
+        
+    
+            var icon_e97eb1995af0e503d3f732b484c57bc2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b15ce356d29e1b46b804fc561161ebf0.setIcon(icon_e97eb1995af0e503d3f732b484c57bc2);
+        
+    
+        var popup_18f2332de36c2071e86e0331df0d1d50 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9dedeb068bd5c2c122af5e32692d3d84 = $(`<div id="html_9dedeb068bd5c2c122af5e32692d3d84" style="width: 100.0%; height: 100.0%;">Írók Boltja (Día 1)</div>`)[0];
+            popup_18f2332de36c2071e86e0331df0d1d50.setContent(html_9dedeb068bd5c2c122af5e32692d3d84);
+        
+
+        marker_b15ce356d29e1b46b804fc561161ebf0.bindPopup(popup_18f2332de36c2071e86e0331df0d1d50)
+        ;
+
+        
+    
+    
+            var marker_626d9df175f4141eeaf4b946f8d1e960 = L.marker(
+                [47.5009, 19.0533],
+                {}
+            ).addTo(map_7b78069743688ad72525b2facce6ae9e);
+        
+    
+            var icon_0fe0f003406adb3322668dad83131521 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_626d9df175f4141eeaf4b946f8d1e960.setIcon(icon_0fe0f003406adb3322668dad83131521);
+        
+    
+        var popup_6fac8f5d7ef7401ba7df2151eb81d248 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ecdf215c2c76a9db526e68e403ebad2a = $(`<div id="html_ecdf215c2c76a9db526e68e403ebad2a" style="width: 100.0%; height: 100.0%;">Basílica de San Esteban (Día 1)</div>`)[0];
+            popup_6fac8f5d7ef7401ba7df2151eb81d248.setContent(html_ecdf215c2c76a9db526e68e403ebad2a);
+        
+
+        marker_626d9df175f4141eeaf4b946f8d1e960.bindPopup(popup_6fac8f5d7ef7401ba7df2151eb81d248)
+        ;
+
+        
+    
+    
+            var marker_d8634c5d97548a32c48434869faf4c16 = L.marker(
+                [47.4979, 19.0606],
+                {}
+            ).addTo(map_7b78069743688ad72525b2facce6ae9e);
+        
+    
+            var icon_59db1a4612666ba69614f7977cc3e4d9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d8634c5d97548a32c48434869faf4c16.setIcon(icon_59db1a4612666ba69614f7977cc3e4d9);
+        
+    
+        var popup_abd9204739b120faba53e86ed87935dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c81698aebdc9eca05ee1408a40669d21 = $(`<div id="html_c81698aebdc9eca05ee1408a40669d21" style="width: 100.0%; height: 100.0%;">Sinagoga de Dohány (Día 1)</div>`)[0];
+            popup_abd9204739b120faba53e86ed87935dd.setContent(html_c81698aebdc9eca05ee1408a40669d21);
+        
+
+        marker_d8634c5d97548a32c48434869faf4c16.bindPopup(popup_abd9204739b120faba53e86ed87935dd)
+        ;
+
+        
+    
+    
+            var marker_63ee182e756cffc5e719f9c120970dd6 = L.marker(
+                [47.4985, 19.0587],
+                {}
+            ).addTo(map_7b78069743688ad72525b2facce6ae9e);
+        
+    
+            var icon_25296070e1bfc9de3ced572eff71297b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_63ee182e756cffc5e719f9c120970dd6.setIcon(icon_25296070e1bfc9de3ced572eff71297b);
+        
+    
+        var popup_3dd4d73b69cbb18e5284b7521e3eba6e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fad9c0a3d4b4548140d1b75e77acd2d4 = $(`<div id="html_fad9c0a3d4b4548140d1b75e77acd2d4" style="width: 100.0%; height: 100.0%;">Gozsdu Udvar (Día 1)</div>`)[0];
+            popup_3dd4d73b69cbb18e5284b7521e3eba6e.setContent(html_fad9c0a3d4b4548140d1b75e77acd2d4);
+        
+
+        marker_63ee182e756cffc5e719f9c120970dd6.bindPopup(popup_3dd4d73b69cbb18e5284b7521e3eba6e)
+        ;
+
+        
+    
+    
+            var marker_1a6d8507eff077bf5519edb88782de70 = L.marker(
+                [47.4977, 19.0634],
+                {}
+            ).addTo(map_7b78069743688ad72525b2facce6ae9e);
+        
+    
+            var icon_10a00682d0183e9346ecfb54616a34b3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1a6d8507eff077bf5519edb88782de70.setIcon(icon_10a00682d0183e9346ecfb54616a34b3);
+        
+    
+        var popup_e1a43c0bd54c1e9d2adf460b2b23c915 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d92997e238de5c573687a0162d32c529 = $(`<div id="html_d92997e238de5c573687a0162d32c529" style="width: 100.0%; height: 100.0%;">Szimpla Kert (Día 1)</div>`)[0];
+            popup_e1a43c0bd54c1e9d2adf460b2b23c915.setContent(html_d92997e238de5c573687a0162d32c529);
+        
+
+        marker_1a6d8507eff077bf5519edb88782de70.bindPopup(popup_e1a43c0bd54c1e9d2adf460b2b23c915)
+        ;
+
+        
+    
+    
+            var marker_d78d21a01efe19f76447ef477a9b1b55 = L.marker(
+                [47.5076, 19.0396],
+                {}
+            ).addTo(map_7b78069743688ad72525b2facce6ae9e);
+        
+    
+            var icon_0a8052199f842861c51a19f0edc5907e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d78d21a01efe19f76447ef477a9b1b55.setIcon(icon_0a8052199f842861c51a19f0edc5907e);
+        
+    
+        var popup_22b46290f548a729838b6135846e5110 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_246e213b2d6c44b7eb7d543614c6d74f = $(`<div id="html_246e213b2d6c44b7eb7d543614c6d74f" style="width: 100.0%; height: 100.0%;">Batthyány tér (Día 2)</div>`)[0];
+            popup_22b46290f548a729838b6135846e5110.setContent(html_246e213b2d6c44b7eb7d543614c6d74f);
+        
+
+        marker_d78d21a01efe19f76447ef477a9b1b55.bindPopup(popup_22b46290f548a729838b6135846e5110)
+        ;
+
+        
+    
+    
+            var marker_ed5fdc14a0a516cceb69804203c87e7a = L.marker(
+                [47.673, 19.07],
+                {}
+            ).addTo(map_7b78069743688ad72525b2facce6ae9e);
+        
+    
+            var icon_16d7c1dbdb61c25b89c3db83cecd07c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ed5fdc14a0a516cceb69804203c87e7a.setIcon(icon_16d7c1dbdb61c25b89c3db83cecd07c4);
+        
+    
+        var popup_c4ad40c7ddcfff6838e829c82d14a5ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f19e3f32e6c8237a3c985b759077ac79 = $(`<div id="html_f19e3f32e6c8237a3c985b759077ac79" style="width: 100.0%; height: 100.0%;">Szentendre (Día 2)</div>`)[0];
+            popup_c4ad40c7ddcfff6838e829c82d14a5ab.setContent(html_f19e3f32e6c8237a3c985b759077ac79);
+        
+
+        marker_ed5fdc14a0a516cceb69804203c87e7a.bindPopup(popup_c4ad40c7ddcfff6838e829c82d14a5ab)
+        ;
+
+        
+    
+    
+            var marker_819d16ac2dde5e28b7489703cbd8a2fa = L.marker(
+                [47.5189, 19.082],
+                {}
+            ).addTo(map_7b78069743688ad72525b2facce6ae9e);
+        
+    
+            var icon_9f9dc2ec9abb149687a7beb7eeeb7d6f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_819d16ac2dde5e28b7489703cbd8a2fa.setIcon(icon_9f9dc2ec9abb149687a7beb7eeeb7d6f);
+        
+    
+        var popup_6555ad8c347af075bf4635839c12fcbe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_765ff6902d1385e2e6301e67807fb4d8 = $(`<div id="html_765ff6902d1385e2e6301e67807fb4d8" style="width: 100.0%; height: 100.0%;">Baños Széchenyi (Día 3)</div>`)[0];
+            popup_6555ad8c347af075bf4635839c12fcbe.setContent(html_765ff6902d1385e2e6301e67807fb4d8);
+        
+
+        marker_819d16ac2dde5e28b7489703cbd8a2fa.bindPopup(popup_6555ad8c347af075bf4635839c12fcbe)
+        ;
+
+        
+    
+    
+            var marker_540155104543e4fa532d2a42fa5c8232 = L.marker(
+                [47.5142, 19.0847],
+                {}
+            ).addTo(map_7b78069743688ad72525b2facce6ae9e);
+        
+    
+            var icon_a35ffc0242f1f01a5a571d05b63ccdba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_540155104543e4fa532d2a42fa5c8232.setIcon(icon_a35ffc0242f1f01a5a571d05b63ccdba);
+        
+    
+        var popup_94da3f13c3df7546c03f1538b070019b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_af635caf623603a9d2cdb2d0f954f279 = $(`<div id="html_af635caf623603a9d2cdb2d0f954f279" style="width: 100.0%; height: 100.0%;">Parque Városliget (Día 3)</div>`)[0];
+            popup_94da3f13c3df7546c03f1538b070019b.setContent(html_af635caf623603a9d2cdb2d0f954f279);
+        
+
+        marker_540155104543e4fa532d2a42fa5c8232.bindPopup(popup_94da3f13c3df7546c03f1538b070019b)
+        ;
+
+        
+    
+    
+            var marker_e1e427d0d2ac8e8d56c93b62e5f97ba2 = L.marker(
+                [47.5145, 19.077],
+                {}
+            ).addTo(map_7b78069743688ad72525b2facce6ae9e);
+        
+    
+            var icon_1c33dd66a02567d8b8a0aaac9ada1226 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e1e427d0d2ac8e8d56c93b62e5f97ba2.setIcon(icon_1c33dd66a02567d8b8a0aaac9ada1226);
+        
+    
+        var popup_8be6a00ff137c7b73180ba5d0b511fa9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_69661ec0f4df6b53d033f9356e8e2ca9 = $(`<div id="html_69661ec0f4df6b53d033f9356e8e2ca9" style="width: 100.0%; height: 100.0%;">Plaza de los Héroes (Día 3)</div>`)[0];
+            popup_8be6a00ff137c7b73180ba5d0b511fa9.setContent(html_69661ec0f4df6b53d033f9356e8e2ca9);
+        
+
+        marker_e1e427d0d2ac8e8d56c93b62e5f97ba2.bindPopup(popup_8be6a00ff137c7b73180ba5d0b511fa9)
+        ;
+
+        
+    
+    
+            var marker_968584ddcd9380606a3bd46a150cf2cd = L.marker(
+                [47.5149, 19.0842],
+                {}
+            ).addTo(map_7b78069743688ad72525b2facce6ae9e);
+        
+    
+            var icon_b150ebcda416355645070889acffc421 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_968584ddcd9380606a3bd46a150cf2cd.setIcon(icon_b150ebcda416355645070889acffc421);
+        
+    
+        var popup_c2f520d4052490de245994c047538d64 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fcd8dd1bf1f132ecca13b167c54eea0c = $(`<div id="html_fcd8dd1bf1f132ecca13b167c54eea0c" style="width: 100.0%; height: 100.0%;">Castillo Vajdahunyad (Día 3)</div>`)[0];
+            popup_c2f520d4052490de245994c047538d64.setContent(html_fcd8dd1bf1f132ecca13b167c54eea0c);
+        
+
+        marker_968584ddcd9380606a3bd46a150cf2cd.bindPopup(popup_c2f520d4052490de245994c047538d64)
+        ;
+
+        
+    
+    
+            var marker_d78e866f588c5228cb5a0bea43187ff0 = L.marker(
+                [47.4969, 19.0399],
+                {}
+            ).addTo(map_7b78069743688ad72525b2facce6ae9e);
+        
+    
+            var icon_9eb54d37f2c0f7e97f182964fe6bbca8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d78e866f588c5228cb5a0bea43187ff0.setIcon(icon_9eb54d37f2c0f7e97f182964fe6bbca8);
+        
+    
+        var popup_b9d4582801864ca1c0ff4d165ba783d9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6216671fd772a2177ec2543623e0d0cc = $(`<div id="html_6216671fd772a2177ec2543623e0d0cc" style="width: 100.0%; height: 100.0%;">Castillo de Buda (Día 3)</div>`)[0];
+            popup_b9d4582801864ca1c0ff4d165ba783d9.setContent(html_6216671fd772a2177ec2543623e0d0cc);
+        
+
+        marker_d78e866f588c5228cb5a0bea43187ff0.bindPopup(popup_b9d4582801864ca1c0ff4d165ba783d9)
+        ;
+
+        
+    
+    
+            var marker_b7c58de673949161f9827a2be0e081f5 = L.marker(
+                [47.5022, 19.0348],
+                {}
+            ).addTo(map_7b78069743688ad72525b2facce6ae9e);
+        
+    
+            var icon_5e3ffd3558a7ee508a81e3ca5174d491 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b7c58de673949161f9827a2be0e081f5.setIcon(icon_5e3ffd3558a7ee508a81e3ca5174d491);
+        
+    
+        var popup_bc744ef10f628524eda53c626f1cf1dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf423e85218ddf505bca5d6a4d0df2d5 = $(`<div id="html_cf423e85218ddf505bca5d6a4d0df2d5" style="width: 100.0%; height: 100.0%;">Iglesia de Matías (Día 3)</div>`)[0];
+            popup_bc744ef10f628524eda53c626f1cf1dd.setContent(html_cf423e85218ddf505bca5d6a4d0df2d5);
+        
+
+        marker_b7c58de673949161f9827a2be0e081f5.bindPopup(popup_bc744ef10f628524eda53c626f1cf1dd)
+        ;
+
+        
+    
+    
+            var marker_ff78d84a6fc6214b7508946e32450be0 = L.marker(
+                [47.5025, 19.0341],
+                {}
+            ).addTo(map_7b78069743688ad72525b2facce6ae9e);
+        
+    
+            var icon_27e4408eb4f1eb88821ca4a2f38303f1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ff78d84a6fc6214b7508946e32450be0.setIcon(icon_27e4408eb4f1eb88821ca4a2f38303f1);
+        
+    
+        var popup_35d234e881a82497738ed6149131953c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_12a0f97e8b2867735b3b7feb72e14d63 = $(`<div id="html_12a0f97e8b2867735b3b7feb72e14d63" style="width: 100.0%; height: 100.0%;">Bastión de los Pescadores (Día 3)</div>`)[0];
+            popup_35d234e881a82497738ed6149131953c.setContent(html_12a0f97e8b2867735b3b7feb72e14d63);
+        
+
+        marker_ff78d84a6fc6214b7508946e32450be0.bindPopup(popup_35d234e881a82497738ed6149131953c)
+        ;
+
+        
+    
+    
+            var marker_3a4130f07587e7b725122b6df098a89b = L.marker(
+                [47.4963, 19.0394],
+                {}
+            ).addTo(map_7b78069743688ad72525b2facce6ae9e);
+        
+    
+            var icon_5408598bda6ac6afff75e76950ee7776 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3a4130f07587e7b725122b6df098a89b.setIcon(icon_5408598bda6ac6afff75e76950ee7776);
+        
+    
+        var popup_d6c8a71d4b39e775ecbcf3aacecf6849 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f44a74ce8ce8eee530cb89454f56e96 = $(`<div id="html_1f44a74ce8ce8eee530cb89454f56e96" style="width: 100.0%; height: 100.0%;">Palacio Real (Día 3)</div>`)[0];
+            popup_d6c8a71d4b39e775ecbcf3aacecf6849.setContent(html_1f44a74ce8ce8eee530cb89454f56e96);
+        
+
+        marker_3a4130f07587e7b725122b6df098a89b.bindPopup(popup_d6c8a71d4b39e775ecbcf3aacecf6849)
+        ;
+
+        
+    
+    
+            var marker_94d73ccf352a5aabd8f4bef5dd70de96 = L.marker(
+                [47.498, 19.0416],
+                {}
+            ).addTo(map_7b78069743688ad72525b2facce6ae9e);
+        
+    
+            var icon_823c170a8f05c214b8412940c35ae329 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_94d73ccf352a5aabd8f4bef5dd70de96.setIcon(icon_823c170a8f05c214b8412940c35ae329);
+        
+    
+        var popup_516f70b19fc5cda33d1dadab1e11c037 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a20c44ba91153137761db01cf93944d3 = $(`<div id="html_a20c44ba91153137761db01cf93944d3" style="width: 100.0%; height: 100.0%;">Puente de las Cadenas (Día 3)</div>`)[0];
+            popup_516f70b19fc5cda33d1dadab1e11c037.setContent(html_a20c44ba91153137761db01cf93944d3);
+        
+
+        marker_94d73ccf352a5aabd8f4bef5dd70de96.bindPopup(popup_516f70b19fc5cda33d1dadab1e11c037)
+        ;
+
+        
+    
+    
+            var marker_616d80d101ee28486445b3cd872e51fe = L.marker(
+                [47.507, 19.045],
+                {}
+            ).addTo(map_7b78069743688ad72525b2facce6ae9e);
+        
+    
+            var icon_c83c3ddb95dc01cc5a704e21240bcabc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_616d80d101ee28486445b3cd872e51fe.setIcon(icon_c83c3ddb95dc01cc5a704e21240bcabc);
+        
+    
+        var popup_cf3e184f5c48df4dc989cd2c3c07efe7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_694048f9075e5b49fcb0b4becbc330f8 = $(`<div id="html_694048f9075e5b49fcb0b4becbc330f8" style="width: 100.0%; height: 100.0%;">Parlamento Húngaro (Día 4)</div>`)[0];
+            popup_cf3e184f5c48df4dc989cd2c3c07efe7.setContent(html_694048f9075e5b49fcb0b4becbc330f8);
+        
+
+        marker_616d80d101ee28486445b3cd872e51fe.bindPopup(popup_cf3e184f5c48df4dc989cd2c3c07efe7)
+        ;
+
+        
+    
+    
+            var marker_b8bde88ba1be21185fa5a2d7f89303b5 = L.marker(
+                [47.5049, 19.0445],
+                {}
+            ).addTo(map_7b78069743688ad72525b2facce6ae9e);
+        
+    
+            var icon_cb16b11e334cab1d895f836e2403ba32 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b8bde88ba1be21185fa5a2d7f89303b5.setIcon(icon_cb16b11e334cab1d895f836e2403ba32);
+        
+    
+        var popup_9141768f12caadeda6b52090500587f8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4cd952e9466507c354130bebd538b1bc = $(`<div id="html_4cd952e9466507c354130bebd538b1bc" style="width: 100.0%; height: 100.0%;">Memorial de los Zapatos (Día 4)</div>`)[0];
+            popup_9141768f12caadeda6b52090500587f8.setContent(html_4cd952e9466507c354130bebd538b1bc);
+        
+
+        marker_b8bde88ba1be21185fa5a2d7f89303b5.bindPopup(popup_9141768f12caadeda6b52090500587f8)
+        ;
+
+        
+    
+    
+            var marker_b976e8592f8a3a9a844d01d0caa12882 = L.marker(
+                [47.4862, 19.0471],
+                {}
+            ).addTo(map_7b78069743688ad72525b2facce6ae9e);
+        
+    
+            var icon_9baf726c64fc6fdc95bb247cca17d722 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b976e8592f8a3a9a844d01d0caa12882.setIcon(icon_9baf726c64fc6fdc95bb247cca17d722);
+        
+    
+        var popup_66f978a7fb78acbc6311ad4a9a4962c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0fa1ded782b6dbb9ca0d92ff5d5b4465 = $(`<div id="html_0fa1ded782b6dbb9ca0d92ff5d5b4465" style="width: 100.0%; height: 100.0%;">Monte Gellért (Día 4)</div>`)[0];
+            popup_66f978a7fb78acbc6311ad4a9a4962c0.setContent(html_0fa1ded782b6dbb9ca0d92ff5d5b4465);
+        
+
+        marker_b976e8592f8a3a9a844d01d0caa12882.bindPopup(popup_66f978a7fb78acbc6311ad4a9a4962c0)
+        ;
+
+        
+    
+    
+            var marker_1ada507bdebb8eead5d6ab51fc6cb5d6 = L.marker(
+                [47.4866, 19.0493],
+                {}
+            ).addTo(map_7b78069743688ad72525b2facce6ae9e);
+        
+    
+            var icon_6ead56cbba3b0d07eba480c3168cc5cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_1ada507bdebb8eead5d6ab51fc6cb5d6.setIcon(icon_6ead56cbba3b0d07eba480c3168cc5cb);
+        
+    
+        var popup_f55b75a17ca2a0e145bb6b66d95d601f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a1cf3f48d697c20d3b3cb96a06e29fbf = $(`<div id="html_a1cf3f48d697c20d3b3cb96a06e29fbf" style="width: 100.0%; height: 100.0%;">Monumento a la Libertad (Día 4)</div>`)[0];
+            popup_f55b75a17ca2a0e145bb6b66d95d601f.setContent(html_a1cf3f48d697c20d3b3cb96a06e29fbf);
+        
+
+        marker_1ada507bdebb8eead5d6ab51fc6cb5d6.bindPopup(popup_f55b75a17ca2a0e145bb6b66d95d601f)
+        ;
+
+        
+    
+    
+            var marker_4a0a75bcc595c67d92681700f03053e5 = L.marker(
+                [47.5182, 19.0465],
+                {}
+            ).addTo(map_7b78069743688ad72525b2facce6ae9e);
+        
+    
+            var icon_539728f8aa4b23e69f48193c4565fe92 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_4a0a75bcc595c67d92681700f03053e5.setIcon(icon_539728f8aa4b23e69f48193c4565fe92);
+        
+    
+        var popup_4c4ca0fc2868759a47ab9bfab4b4dc11 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4d503dbb96ca3ecc6a64c0dd229bcdb = $(`<div id="html_c4d503dbb96ca3ecc6a64c0dd229bcdb" style="width: 100.0%; height: 100.0%;">Puente Margarita (Día 4)</div>`)[0];
+            popup_4c4ca0fc2868759a47ab9bfab4b4dc11.setContent(html_c4d503dbb96ca3ecc6a64c0dd229bcdb);
+        
+
+        marker_4a0a75bcc595c67d92681700f03053e5.bindPopup(popup_4c4ca0fc2868759a47ab9bfab4b4dc11)
+        ;
+
+        
+    
+    
+            var marker_d4b6b02489c130aa73417b2dcc71ffe0 = L.marker(
+                [47.4879, 19.0628],
+                {}
+            ).addTo(map_7b78069743688ad72525b2facce6ae9e);
+        
+    
+            var icon_ae0463293bd15a1a6ed721904d8e711b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_d4b6b02489c130aa73417b2dcc71ffe0.setIcon(icon_ae0463293bd15a1a6ed721904d8e711b);
+        
+    
+        var popup_30e8ab98d51927214af0331a9e5f89e6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c460f4953640908ee99030efaf8d2ae1 = $(`<div id="html_c460f4953640908ee99030efaf8d2ae1" style="width: 100.0%; height: 100.0%;">Biblioteca Metropolitana Ervin Szabó (Día 5)</div>`)[0];
+            popup_30e8ab98d51927214af0331a9e5f89e6.setContent(html_c460f4953640908ee99030efaf8d2ae1);
+        
+
+        marker_d4b6b02489c130aa73417b2dcc71ffe0.bindPopup(popup_30e8ab98d51927214af0331a9e5f89e6)
+        ;
+
+        
+    
+    
+            var marker_68bfecbbd3c0d59210543989d5b81d6d = L.marker(
+                [47.488, 19.058],
+                {}
+            ).addTo(map_7b78069743688ad72525b2facce6ae9e);
+        
+    
+            var icon_bf0568b4e19e93ebc96dbb455e0a943d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_68bfecbbd3c0d59210543989d5b81d6d.setIcon(icon_bf0568b4e19e93ebc96dbb455e0a943d);
+        
+    
+        var popup_5d864742b69030fc58b03bc2a4771fc1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab2eec750133763eb38447f4bb2cf80b = $(`<div id="html_ab2eec750133763eb38447f4bb2cf80b" style="width: 100.0%; height: 100.0%;">Mercado Central (Día 5)</div>`)[0];
+            popup_5d864742b69030fc58b03bc2a4771fc1.setContent(html_ab2eec750133763eb38447f4bb2cf80b);
+        
+
+        marker_68bfecbbd3c0d59210543989d5b81d6d.bindPopup(popup_5d864742b69030fc58b03bc2a4771fc1)
+        ;
+
+        
+    
+    
+            var marker_9ecec19a1e820a89459fe0fac80462f1 = L.marker(
+                [47.5316, 19.0469],
+                {}
+            ).addTo(map_7b78069743688ad72525b2facce6ae9e);
+        
+    
+            var icon_042283ec21834fa62aa629f05b11de2e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_9ecec19a1e820a89459fe0fac80462f1.setIcon(icon_042283ec21834fa62aa629f05b11de2e);
+        
+    
+        var popup_683619edd70ae301c238c70528f4ee97 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e33fd67e5da6e59051ae32475069c66 = $(`<div id="html_0e33fd67e5da6e59051ae32475069c66" style="width: 100.0%; height: 100.0%;">Isla Margarita (Día 5)</div>`)[0];
+            popup_683619edd70ae301c238c70528f4ee97.setContent(html_0e33fd67e5da6e59051ae32475069c66);
+        
+
+        marker_9ecec19a1e820a89459fe0fac80462f1.bindPopup(popup_683619edd70ae301c238c70528f4ee97)
+        ;
+
+        
+    
+</script>
+</html>
